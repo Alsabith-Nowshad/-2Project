@@ -1,0 +1,24 @@
+.continer{
+    display: grid;
+    grid-template-columns: auto  auto 200px auto  ;
+    grid-template-rows: 200px 700px ;
+}
+
+.item{
+    padding: 20px;
+    column-rule-color: white;
+    background-color: red;
+    font-size: 30px;
+    border: 2px solid;
+}
+
+.item1{
+    background-color: green;
+}
+.item2{
+    background-color: yellow;
+}
+
+.item3{
+    background-color: violet;
+}
